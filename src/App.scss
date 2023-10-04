@@ -1,0 +1,52 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .title{
+    width: 800px;
+  }
+
+  .selectWarp{
+    width: 800px;
+    display: flex;
+    justify-content: end;
+
+    select{
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: none;
+      background-color: #6499E9;
+      color: white;
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      }
+  }
+
+
+  .yearBox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: end;
+    position: sticky;
+    bottom: 10px;
+    z-index: 2;
+  
+    span{
+      margin-right: 10px;
+      &:nth-child(1){
+        font-size: 4rem;
+      }
+      &:nth-child(2){
+        font-size: 2rem;
+      }
+    }
+    
+  }
+  .loading{
+    font-size: 48px;
+    margin-top: 3rem;
+  }
+}
